@@ -1,0 +1,43 @@
+.ImageContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 500px;
+   
+
+}
+.top-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text-about{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.edit-btn{
+    background-color: green;
+    color: antiquewhite;
+    font-size: 15px;
+}
+.cancel-btn{
+    background-color: brown;
+    color: aliceblue;
+    font-size: 15px;
+}
